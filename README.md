@@ -4,7 +4,7 @@ Com a metodologia de "Aprendizado baseado em projeto".
 
 ## Layout base
 Layout base do projeto
-![Layout do Projeto StartUp-Me](https://github.com/ubirajarapelli/startupme/raw/master/startup-me_layout.png =600x)
+![Layout do Projeto StartUp-Me](https://github.com/ubirajarapelli/startupme/raw/master/startup-me_layout.png)
 
 ## Textos
 Textos do layout que serão utilizados no desenvolvimento, disponibilizados para agilidade para produção.
