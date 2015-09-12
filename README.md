@@ -28,6 +28,11 @@ Coloquei a paleta de cores no formato RGB.
 > Cinza Escuro `rgb(119,119,119)`  
 > Preto `rgb(0,0,0)`  
 
+### Icon Fonts
+Utilizaremos os icon fonts do [IcoMoon](https://icomoon.io/)  
+Os icon fonts são os icones de redes sociais que estão no footer.  
+
+
 ## Textos do layout
 Textos do layout que serão utilizados no desenvolvimento, disponibilizados para agilidade na produção.
 
