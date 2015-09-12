@@ -1,13 +1,35 @@
 # StartUp-Me
-O StartUp-Me é um projeto acadêmcio que visa o aprendizado de HTML e CSS e um pouquinho de Js.  
+O StartUp-Me é um projeto acadêmcio que visa o aprendizado de HTML, CSS e um pouquinho de Javascript.  
 Com a metodologia de "Aprendizado baseado em projeto".
 
-## Layout base
-Layout base do projeto
+## Layout do Projeto
+### Imagem do layout  
 ![Layout do Projeto StartUp-Me](https://github.com/ubirajarapelli/startupme/raw/master/startup-me_layout.png)
 
-## Textos
-Textos do layout que serão utilizados no desenvolvimento, disponibilizados para agilidade para produção.
+### Tipologias Utilizadas
+As tipologias utilizadas, familias e variações podem ser encontrada no [Google Fonts](https://www.google.com/fonts)  
+
+> Open Sans 
+>
+>       - Semibold
+>       - Bold
+>       - Extrabold
+>   
+> Droid Serif
+>
+>       - Regular
+>       - italic
+
+### Paleta de Cores
+Coloquei a paleta de cores no formato RGB.    
+> Branco `rgb(255,255,255)`  
+> Amarelo `rgb(254,209,54)`  
+> Cinza Claro `rgb(245,245,245)`  
+> Cinza Escuro `rgb(119,119,119)`  
+> Preto `rgb(0,0,0)`  
+
+## Textos do layout
+Textos do layout que serão utilizados no desenvolvimento, disponibilizados para agilidade na produção.
 
 > Bem vindo ao nosso estúdio
 > # Crie agora seu app para sua empresa
