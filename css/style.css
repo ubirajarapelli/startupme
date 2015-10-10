@@ -1,0 +1,40 @@
+*{
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+   background-image: url(../images/bg-header.jpg); /* Imagem de fundo */
+   background-repeat: no-repeat; /* Repetir a imagem de fundo? - Não Repetir */
+   background-position: top; /* Posição da imagem de fundo -  Posição superior*/
+   height: 601px; /*Altura */
+}
+.titulo{
+    font-size: 66px;
+    text-align: center;
+    color: rgb(255,255,255);
+    /* Altura da Entre-linha */
+    line-height: 2.2em;
+}
+/* "#" - IDs */
+#sobre{}
+#apps{}
+#contatos{}
+
+/* "." - Class (Classe) */
+.container{
+    /* Largura */
+    width: 960px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto;
+}
+.conteudo-secundario{
+    background-color: rgb(245,245,245);
+}
