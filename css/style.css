@@ -18,8 +18,7 @@ header{
     font-size: 66px;
     text-align: center;
     color: rgb(255,255,255);
-    /* Altura da Entre-linha */
-    line-height: 2.2em;
+    line-height: 2.2em; /* Altura da Entre-linha */
 }
 /* "#" - IDs */
 #sobre{}
