@@ -1,6 +1,7 @@
 # StartUp-Me
 O StartUp-Me é um projeto acadêmcio que visa o aprendizado de HTML, CSS e um pouquinho de Javascript.  
-Com a metodologia de "Aprendizado baseado em projeto".
+Com a metodologia de "Aprendizado baseado em projeto".  
+Acompanhe o desenvolvimento e veja o projeto online em [ubirajarapelli.github.io/startupme](http://ubirajarapelli.github.io/startupme/).  
 
 ## Layout do Projeto
 ### Imagem do layout  
