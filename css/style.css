@@ -259,15 +259,33 @@ input[type="submit"]{
     font-size: .7em;
     font-weight: 700;
 }
+.icons-footer{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px 0 470px;
+}
 
 .icon {
-	display: inline-block;
-	width: 1em;
-	height: 1em;
-	fill: currentColor;
-	font-size: 14px;
-	color: rgb(0,0,0);
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    font-size: 1.6em;
+    color: rgb(119,119,119);
+    transition: color 0.4s ease-in-out 0s;
+    
 }
+.icon:hover{color: rgb(254,209,54);}
+
+.socials{
+    margin-top: 3.3333%;
+    text-align: right;
+}
+.social-icons{ 
+    display: inline;
+}
+.social-icons a{text-decoration: none;}
 /* #My Media Queries
 ==================*/
 
