@@ -8,7 +8,7 @@ Acompanhe o desenvolvimento e veja o projeto online em [ubirajarapelli.github.io
 ![Layout do Projeto StartUp-Me](https://github.com/ubirajarapelli/startupme/raw/master/startup-me_layout.png)
 
 ### Tipologias Utilizadas
-As tipologias utilizadas, familias e variações podem ser encontrada no [Google Fonts](https://www.google.com/fonts)  
+As tipologias utilizadas, famílias e variações podem ser encontradas no [Google Fonts](https://www.google.com/fonts)  
 
 > Open Sans 
 >
@@ -31,7 +31,7 @@ Coloquei a paleta de cores no formato RGB.
 
 ### Icon Fonts
 Utilizaremos os icon fonts do [IcoMoon](https://icomoon.io/)  
-Os icon fonts são os icones de redes sociais que estão no footer.  
+Os icon fonts são os ícones de redes sociais que estão no footer.  
 
 
 ## Textos do layout
