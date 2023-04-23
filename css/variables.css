@@ -1,0 +1,12 @@
+:root {
+  --color-brand-primary-base: rgb(254,209,54);
+  --color-brand-primary-dark: rgb(230,179,1);
+
+  --color-text-base: rgb(119,119,119);
+  --color-text-dark: rgb(92,93,95);
+
+  --color-interface-base:rgb(245,245,245);
+  --color-interface-commom-light: rgb(255,255,255);
+  --color-interface-commom-dark: rgb(0,0,0);
+
+}
