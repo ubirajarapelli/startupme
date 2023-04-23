@@ -6,6 +6,7 @@
     <title>StartUp-Me</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/components.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="icons/icons.css" />
     <link
@@ -19,8 +20,8 @@
   </head>
   <body>
     <header id="banner">
-      <nav id="navigator">
-        <div class="container">
+      <div class="container">
+        <nav id="navigator">
           <div id="logo">
             <a href="/"
               ><img
@@ -37,18 +38,20 @@
               <li class="menu-item"><a href="#contact">contato</a></li>
             </ul>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
       <div class="container centralized">
         <span class="welcome">Bem vindo ao nosso estúdio</span>
-        <h1 class="title">crie agora seu app para sua empresa</h1>
+        <h1 class="banner-title">crie agora seu app para sua empresa</h1>
         <button class="button button-big">Saiba mais</button>
       </div>
     </header>
     <section id="about">
       <article class="first-content">
         <div class="container centralized">
-          <h2>Sua empresa ao alacance das mãos dos seus clientes</h2>
+          <h2 class="heading-large">
+            Sua empresa ao alacance das mãos dos seus clientes
+          </h2>
           <p>
             Nós da <strong>StartUp-Me</strong> contectamos o seu serviço ou
             produto com seu cliente, através de Apps Mobile para Smartphones e
@@ -123,7 +126,7 @@
           </p>
           <div class="workers">
             <img
-              class="worker-img"
+              class="avatar"
               src="images/joao-ricardo-b-sutter.jpg"
               alt="João Ricardo B. Sutter"
             />
@@ -132,7 +135,7 @@
           </div>
           <div class="workers">
             <img
-              class="worker-img"
+              class="avatar"
               src="images/patricia-mascarenhas.jpg"
               alt="Patrícia Mascarenhas"
             />
@@ -141,7 +144,7 @@
           </div>
           <div class="workers">
             <img
-              class="worker-img"
+              class="avatar"
               src="images/miguel-dos-santos-arcanjo.jpg"
               alt="Miguel dos Santos Arcanjo"
             />
@@ -150,7 +153,7 @@
           </div>
           <div class="workers">
             <img
-              class="worker-img"
+              class="avatar"
               src="images/jean-carlos-madeiro.jpg"
               alt="Jean Carlos Madeiro"
             />
@@ -164,7 +167,7 @@
     <section id="apps">
       <article class="first-content">
         <div class="container">
-          <h2 class="centralized">
+          <h2 class="heading-large centralized">
             Porque a Startup-Me é a melhor escolha para seu app
           </h2>
           <p class="centralized">
@@ -211,19 +214,19 @@
               Android, Windows Phone e FirefoxOS.
             </p>
             <ul class="icons">
-              <li class="icons-item">
+              <li class="circular-icon">
                 <img src="images/icon-apple-ios.png" alt="Icone Apple" />
               </li>
-              <li class="icons-item">
+              <li class="circular-icon">
                 <img src="images/icon-android.png" alt="Icon Android" />
               </li>
-              <li class="icons-item">
+              <li class="circular-icon">
                 <img
                   src="images/icon-windows-phone.png"
                   alt="Icon WindowsPhone"
                 />
               </li>
-              <li class="icons-item">
+              <li class="circular-icon">
                 <img src="images/incon-firefox-os.png" alt="Icon FirefoxOS" />
               </li>
             </ul>
@@ -235,7 +238,7 @@
     <section id="contact">
       <article class="first-content">
         <div class="container centralized">
-          <h2>Entre em contato conosco</h2>
+          <h2 class="heading-large">Entre em contato conosco</h2>
           <p>
             Preencha o formulário abaixo e nos envie um orçamento, utilize
             também<br />para nos enviar dúvidas e/ ou sugestões.
@@ -303,7 +306,9 @@
               frameborder="0"
               allowfullscreen
             ></iframe>
-            <h6>StartUp-Me Desenvolvimento de Software</h6>
+            <h3 class="heading-xsmall">
+              StartUp-Me Desenvolvimento de Software
+            </h3>
             <p>
               Av. Paulista, 1374 - Bela Vista, São Paulo - SP<br />
               Conj 01 Sala 107 - CEP 01311-300

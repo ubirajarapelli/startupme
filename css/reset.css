@@ -208,3 +208,16 @@ svg {
 */
   overflow: hidden;
 }
+
+p,
+dl,
+hr,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 24px;
+}
