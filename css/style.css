@@ -2,14 +2,10 @@
   box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
-}
-
 body {
+  line-height: 1.6;
   font-size: 20px;
   font-family: 'Droid Serif', Times, serif;
-  line-height: 1.6;
   color: var(--color-text-dark)
 }
 
@@ -45,8 +41,6 @@ h6 {
   font-size: 16px;
 }
 
-
-
 /* "#" - IDs */
 #about {}
 #apps {}
@@ -79,8 +73,6 @@ h6 {
 .menu-item a:hover { 
   color: var(--color-brand-primary-base);
 }
-
-
 
 
 /*
