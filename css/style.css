@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
 body {
   line-height: 1.6;
   font-size: 20px;
@@ -27,7 +35,7 @@ h6 {
 .heading-large {
   margin-bottom: 24px;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 1.5rem;
   color: var(--color-brand-primary-base)
 }
 
@@ -75,10 +83,48 @@ h6 {
 }
 
 
+.container {
+  width: 96vw;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+#logo {
+  outline: 1px solid blue;
+  width: 46vw;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#menu {
+  outline: 1px solid green;
+  width: 46vw;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.all-workers {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 94vw;
+  }
+}
+
+@media (max-width: 1440px) {
+  .all-workers {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 /*
 /* Media Queries Examples
 */
-
 /* Smartphone Portrait */
 @media(min-width: 480px) and (max-width: 768px) {
   .my-class { 
