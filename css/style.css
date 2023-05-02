@@ -104,6 +104,7 @@ h6 {
 .workers { 
   text-align: center;
   color: red;
+  border: 1px solid blue;
 }
 
 @media(max-width: 480px) {
