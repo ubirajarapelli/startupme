@@ -91,9 +91,17 @@ h6 {
   padding: 1.5rem 0;
 }
 
+#navigator {
+  display: flex;
+}
+
 #logo,
 #menu {
   width: 50vw;
+}
+
+#menu {
+  text-align: right;
 }
 
 .all-workers {
@@ -103,11 +111,45 @@ h6 {
 
 .workers { 
   text-align: center;
-  color: red;
-  border: 1px solid blue;
+}
+
+.worker-name {
+  margin-bottom: 0;
+  line-height: 1.2;
+  font-family: 'Open sans', Helvetica, Arial, Sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--color-interface-commom-dark);
+}
+
+.all-app-icon {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media(max-width: 480px) {
+  
+  .menu {
+    top: 0;
+    left: -60vw;
+    position: absolute;
+    width: 60vw;
+    height: 100vh;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--color-text-dark);
+    box-shadow: 1px 0px 7px rgba(0,0,0,.75);
+  }
+
+  .menu.open {
+    left: 0;
+  }
+
+  .menu-item {
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+  }
+
   .container {
     width: 94vw;
   }
@@ -119,6 +161,19 @@ h6 {
   .workers {
     margin-bottom: 1.2rem;
   }
+  .all-app-icon {
+    flex-direction: column;
+  }
+
+  .app-icon {
+    width: 50vw;
+  }
+}
+
+@media(min-width: 992px) {
+  .menu-button {
+    display: none;
+  }
 }
 
 @media(max-width: 1440px) {
@@ -127,8 +182,7 @@ h6 {
   }
 
   .workers {
-    /* width:x 25vw; */
-
+    width: 25vw;
   }
 }
 
